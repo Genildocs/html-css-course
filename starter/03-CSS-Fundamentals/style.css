@@ -1,26 +1,42 @@
-*{
-    font-family: sans-serif;
+* {
+  font-family: sans-serif;
+  text-decoration: none;
+  
 }
 
-h1{
-    font-size: 40px;
+h1 {
+  font-size: 40px;
 }
 
-h2{
-    font-size: 40px;
+h2 {
+  font-size: 40px;
 }
 
-h3{
-    font-size: 30px;
+h3 {
+  font-size: 30px;
 }
 
-h4{
-    font-size: 20px;
-    text-transform: uppercase;
-    text-align: center;
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-p{
-    font-size: 22px;
-    line-height: 1.5;
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.main-header{
+    background-color: #f7f7f7;
+    border-top: 5px solid blue;
+    border-bottom:5px solid blue;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+li:nth-child(even){
+    color: red;
 }

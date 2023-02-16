@@ -1,6 +1,13 @@
 * {
   font-family: sans-serif;
 }
+
+body{
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
 h1 {
   color: blue;
   font-size: 26px;
@@ -29,4 +36,13 @@ p {
 
 li{
      font-size: 20px;
+}
+
+button{
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }

@@ -48,6 +48,18 @@ img{
     text-decoration: none;
     margin-bottom: 30px;
 }
+
+.link-two{
+    display: block;
+    margin-top: 30px;
+    color: black;
+}
+
+.link-two:hover{
+    color: blue;
+}
+
+
 .btn-one{
     background-color: black;
     cursor: pointer;
